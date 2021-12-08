@@ -1,38 +1,41 @@
+*{
+  margin: 0;
+  padding: 0;
+}
 .App {
   text-align: center;
+  
+  color: #fff;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Content{
+  background-image: url('data:image/jpeg;base64,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');
+  position: relative;
+  background-position: top;
+  max-width: 480px;
+  margin: 0 auto;
+  min-height: 95vh;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+p,h1,h2{
+  padding: 8px 0;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.mycity{
+  height:309px;
 }
-
-.App-link {
-  color: #61dafb;
+.mycity button{
+  width: 173px;
+  height: 32px;
+  border: none;
+  margin-top: 12px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button:hover{
+  color: red;
+  cursor: pointer;
+}
+.mycity input{
+  outline: none;
+}
+.othercity button{
+  height: 26px;
+  padding: 0 2px;
+  margin: 0 2px;
 }

@@ -1,25 +1,22 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Mycity from './Mycity'
+import Listcity from './Listcity'
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="Content">
+        <h1>Ứng dụng thời tiết</h1>
+        <Mycity />
+        <h2>Thời tiết của một số thành phố lân cận</h2>
+        <Listcity />
+      </div>
     </div>
-  );
+  )
+  
 }
 
 export default App;
