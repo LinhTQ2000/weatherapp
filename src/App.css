@@ -15,27 +15,33 @@
   margin: 0 auto;
   min-height: 95vh;
 }
-p,h1,h2{
-  padding: 8px 0;
+.myLocation{
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(66 61 61 / 78%);
+  border-radius: 12px;
+  height: 75px;
 }
-.mycity{
-  height:309px;
+
+.myLocation-name{
+  font-size: 1.6rem;
 }
-.mycity button{
-  width: 173px;
-  height: 32px;
-  border: none;
-  margin-top: 12px;
+
+.myLocation-country{
+  font-size: 0.8rem;
 }
-button:hover{
-  color: red;
-  cursor: pointer;
+
+.myLocation-weather{
+  font: size 1.2rem;
 }
-.mycity input{
-  outline: none;
+
+.myLocation-tempmain{
+  font-size: 1.6rem;
+  margin-top: 4px;
 }
-.othercity button{
-  height: 26px;
-  padding: 0 2px;
-  margin: 0 2px;
+
+.myLocation-tempextra{
+  font-size: 1rem;
+  margin-top: 8px;
 }

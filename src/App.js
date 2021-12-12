@@ -11,7 +11,7 @@ function App() {
       <div className="Content">
         <h1>Ứng dụng thời tiết</h1>
         <Mycity />
-        <h2>Thời tiết của một số thành phố lân cận</h2>
+        <h2>Weather</h2>
         <Listcity />
       </div>
     </div>
